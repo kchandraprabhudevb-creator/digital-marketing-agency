@@ -1,5 +1,5 @@
-import { Metadata } from 'next';
 import SchemaMarkup from '@/components/SchemaMarkup';
+import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
   title: 'Contact Us',
@@ -42,33 +42,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="card reveal active" style={{ transitionDelay: '0.1s' }}>
-              <form name="contact" method="POST" data-netlify="true">
-                <input type="hidden" name="form-name" value="contact" />
-                <div className="form-group">
-                  <label className="form-label" htmlFor="name">Full Name</label>
-                  <input type="text" id="name" name="name" className="form-control" required placeholder="John Doe" />
-                </div>
-                <div className="form-group">
-                  <label className="form-label" htmlFor="email">Email Address</label>
-                  <input type="email" id="email" name="email" className="form-control" required placeholder="john@example.com" />
-                </div>
-                <div className="form-group">
-                  <label className="form-label" htmlFor="service">Interested Service</label>
-                  <select id="service" name="service" className="form-control" style={{ appearance: 'none', backgroundImage: 'url("data:image/svg+xml;utf8,<svg fill=\'%23ffffff\' height=\'24\' viewBox=\'0 0 24 24\' width=\'24\' xmlns=\'http://www.w3.org/2000/svg\'><path d=\'M7 10l5 5 5-5z\'/></svg>")', backgroundRepeat: 'no-repeat', backgroundPositionX: '98%', backgroundPositionY: '50%' }}>
-                    <option value="seo">SEO</option>
-                    <option value="ppc">Performance Marketing</option>
-                    <option value="social">Social Media</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-                <div className="form-group">
-                  <label className="form-label" htmlFor="message">Project Details</label>
-                  <textarea id="message" name="message" className="form-control" required placeholder="Tell us about your goals..."></textarea>
-                </div>
-                <button type="submit" className="btn btn-primary" style={{ width: '100%' }}>Send Message</button>
-              </form>
-            </div>
+            <ContactForm />
           </div>
         </div>
       </section>
