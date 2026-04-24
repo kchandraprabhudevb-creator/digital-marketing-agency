@@ -24,7 +24,7 @@ export default function Home() {
         <div className="container">
           <div className="grid grid-2" style={{ alignItems: 'center' }}>
             <div className="reveal active">
-              <h2 className="section-title">The Nexus Methodology</h2>
+              <h2 className="section-title">The exceln8n Methodology</h2>
               <p className="text-muted" style={{ marginBottom: '1rem', fontSize: '1.1rem' }}>
                 We believe that marketing is no longer an art; it is a hard science. Every campaign we launch is backed by millions of data points and optimized continuously.
               </p>

@@ -3,7 +3,7 @@ import SchemaMarkup from '@/components/SchemaMarkup';
 
 export const metadata: Metadata = {
   title: 'Contact Us',
-  description: 'Get in touch with Nexus Digital to start your project.',
+  description: 'Get in touch with exceln8n to start your project.',
 };
 
 export default function Contact() {

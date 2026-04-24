@@ -25,7 +25,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <Link href="/" className="logo">
-          NEXUS<span className="text-gradient">.</span>
+          exceln8n<span className="text-gradient">.</span>
         </Link>
         <div className="nav-links">
           <Link href="/" className={pathname === '/' ? 'active' : ''}>Home</Link>

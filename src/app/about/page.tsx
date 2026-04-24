@@ -3,7 +3,7 @@ import SchemaMarkup from '@/components/SchemaMarkup';
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: 'Learn about Nexus Digital, our mission, our team, and how we leverage data science to drive marketing success.',
+  description: 'Learn about exceln8n, our mission, our team, and how we leverage data science to drive marketing success.',
 };
 
 export default function About() {
@@ -15,7 +15,7 @@ export default function About() {
         <div className="container text-center reveal active">
           <h1>We are the Architects of <span className="text-gradient">Digital Growth</span></h1>
           <p style={{ maxWidth: '800px', margin: '0 auto', fontSize: '1.2rem' }}>
-            Founded in 2026, Nexus was built on a simple premise: marketing shouldn't be guesswork. It should be an exact science powered by data, driven by psychology, and executed with creative brilliance.
+            Founded in 2026, exceln8n was built on a simple premise: marketing shouldn't be guesswork. It should be an exact science powered by data, driven by psychology, and executed with creative brilliance.
           </p>
         </div>
       </section>
@@ -30,7 +30,7 @@ export default function About() {
                 We noticed a massive gap in the industry. Traditional agencies were slow, bloated, and entirely disconnected from the rapid advancements in AI, machine learning, and advanced data analytics. They were selling vanity metrics—likes, impressions, and fluff—while businesses needed actual revenue.
               </p>
               <p className="text-muted" style={{ marginBottom: '1.5rem', lineHeight: '1.8' }}>
-                Nexus was formed to bridge that gap. We combine elite creative talent with hardcore data science to deliver campaigns that don't just look good—they dominate. Our team is composed of former FAANG engineers, behavioral psychologists, and award-winning creatives who understand how to capture attention and convert it into capital.
+                exceln8n was formed to bridge that gap. We combine elite creative talent with hardcore data science to deliver campaigns that don't just look good—they dominate. Our team is composed of former FAANG engineers, behavioral psychologists, and award-winning creatives who understand how to capture attention and convert it into capital.
               </p>
               <p className="text-muted" style={{ lineHeight: '1.8' }}>
                 When you partner with us, you're not getting an outsourced vendor; you're gaining an entire growth department dedicated to scaling your brand to the next echelon.

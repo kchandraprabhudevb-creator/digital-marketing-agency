@@ -6,8 +6,8 @@ import SchemaMarkup from '@/components/SchemaMarkup';
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Nexus Digital',
-    default: 'Nexus Digital | Premium Marketing Agency',
+    template: '%s | exceln8n',
+    default: 'exceln8n | Premium Marketing Agency',
   },
   description: 'A modern digital marketing agency driving explosive growth for futuristic brands. Specializing in SEO, PPC, and AI Automation.',
   robots: {

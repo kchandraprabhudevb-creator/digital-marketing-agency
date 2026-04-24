@@ -14,7 +14,7 @@ export default function SchemaMarkup({
   if (type === 'Organization') {
     schemaData = {
       "@type": "Organization",
-      "name": "Nexus Digital",
+      "name": "exceln8n",
       "url": "https://exceln8n.space",
       "logo": "https://exceln8n.space/logo.png",
       "contactPoint": {
@@ -28,7 +28,7 @@ export default function SchemaMarkup({
       "@type": "Service",
       "provider": {
         "@type": "Organization",
-        "name": "Nexus Digital"
+        "name": "exceln8n"
       },
       ...data
     };
@@ -37,7 +37,7 @@ export default function SchemaMarkup({
       "@type": "Article",
       "publisher": {
         "@type": "Organization",
-        "name": "Nexus Digital"
+        "name": "exceln8n"
       },
       ...data
     };

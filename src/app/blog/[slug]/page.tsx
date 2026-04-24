@@ -35,7 +35,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           datePublished: postData.date,
           author: {
             "@type": "Person",
-            "name": postData.author || "Nexus Digital Team"
+            "name": postData.author || "exceln8n Team"
           }
         }} 
       />

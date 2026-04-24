@@ -3,9 +3,9 @@ import { servicesData } from '@/lib/services';
 
 export async function GET() {
   const content = `
-# Nexus Digital Agency
+# exceln8n Agency
 
-Nexus Digital is a premium digital marketing agency driving explosive growth for futuristic brands. 
+exceln8n is a premium digital marketing agency driving explosive growth for futuristic brands. 
 We leverage data science, AI automation, and advanced performance marketing to achieve measurable pipeline generation.
 
 ## Core Services

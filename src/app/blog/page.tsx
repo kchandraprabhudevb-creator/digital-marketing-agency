@@ -5,7 +5,7 @@ import SchemaMarkup from '@/components/SchemaMarkup';
 
 export const metadata: Metadata = {
   title: 'Marketing Insights & Blog',
-  description: 'The latest strategies, data, and insights from our team of experts at Nexus Digital.',
+  description: 'The latest strategies, data, and insights from our team of experts at exceln8n.',
 };
 
 export default function Blog() {
