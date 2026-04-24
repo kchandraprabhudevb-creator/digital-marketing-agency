@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { GoogleTagManager } from '@next/third-parties/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -23,6 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="GTM-KB9C9D7C" />
       <body>
         <SchemaMarkup type="Organization" />
         <Navbar />
